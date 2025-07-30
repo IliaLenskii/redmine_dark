@@ -162,6 +162,10 @@ body.dark.theme-Rtmaterial #my-page tr.overdue td.id {
         filter: invert(90%);
     }
     
+    body::spelling-error {
+	      text-decoration: #00ffe0 wavy underline;
+    }
+    
     body:not(.theme-Rtmaterial) .icon{
         filter: invert(100%);
         color: #555 !important;
